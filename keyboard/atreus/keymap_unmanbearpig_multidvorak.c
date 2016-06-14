@@ -22,7 +22,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   /* 1: fn with undvorak-ized punctuation */
   KEYMAP(SHIFT(KC_1), SHIFT(KC_2), SHIFT(KC_3), SHIFT(KC_MINS), SHIFT(KC_EQUAL), \
            KC_PGUP, KC_7, KC_8, KC_9, SHIFT(KC_8), \
-         KC_TAB, SHIFT(KC_GRAVE), SHIFT(KC_QUOT), SHIFT(KC_Z), SHIFT(KC_4),  \
+         SHIFT(KC_QUOT), SHIFT(KC_GRAVE), SHIFT(KC_BSLS), SHIFT(KC_Z), SHIFT(KC_4), \
            KC_PGDN, KC_4, KC_5, KC_6, SHIFT(KC_RBRC), \
          KC_MINS, KC_EQUAL, SHIFT(KC_9), SHIFT(KC_0), SHIFT(KC_7),      \
            KC_GRAVE, KC_1, KC_2, KC_3, KC_BSLS,                       \
