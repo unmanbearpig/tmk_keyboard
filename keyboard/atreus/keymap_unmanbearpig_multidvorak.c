@@ -15,18 +15,18 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   KEYMAP(KC_Q, KC_W, KC_E, KC_R, KC_T, KC_Y, KC_U, KC_I, KC_O, KC_P, \
          KC_A, KC_S, KC_D, KC_F, KC_G, KC_H, KC_J, KC_K, KC_L, KC_SCLN, \
          KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, \
-         KC_TAB, KC_ESC, KC_BSPC, KC_LGUI, KC_LSFT, KC_LCTL, KC_LALT,     \
+         KC_ESC, KC_TAB, KC_BSPC, KC_LGUI, KC_LSFT, KC_LCTL, KC_LALT,     \
          // KC_MINS and KC_LBRC are inverse-dvorakized
          KC_SPC, KC_FN0, KC_QUOT, KC_LBRC, KC_ENT),                     \
 
   /* 1: fn with undvorak-ized punctuation */
-  KEYMAP(SHIFT(KC_1), SHIFT(KC_2), KC_UP, SHIFT(KC_MINS), SHIFT(KC_EQUAL), \
+  KEYMAP(SHIFT(KC_1), SHIFT(KC_2), SHIFT(KC_3), SHIFT(KC_MINS), SHIFT(KC_EQUAL), \
            KC_PGUP, KC_7, KC_8, KC_9, SHIFT(KC_8), \
-         SHIFT(KC_3), KC_LEFT, KC_DOWN, KC_RIGHT, SHIFT(KC_4),  \
+         KC_TAB, SHIFT(KC_GRAVE), KC_LBRC, SHIFT(KC_MINS), SHIFT(KC_4),  \
            KC_PGDN, KC_4, KC_5, KC_6, SHIFT(KC_RBRC), \
          KC_MINS, KC_EQUAL, SHIFT(KC_9), SHIFT(KC_0), SHIFT(KC_7),      \
            KC_GRAVE, KC_1, KC_2, KC_3, KC_BSLS,                       \
-         KC_FN1, SHIFT(KC_INS), KC_LGUI, KC_LSFT, KC_BSPC, KC_LCTL, KC_LALT, \
+         KC_FN1, KC_TAB, KC_BSPC, KC_LGUI, KC_LSFT, KC_LCTL, KC_LALT,   \
            KC_SPC, KC_FN0, KC_E, KC_0, KC_RBRC), \
 
   /* 2: arrows and function keys */
