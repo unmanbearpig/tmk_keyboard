@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_Z, KC_X, KC_C, KC_V, KC_B, KC_N, KC_M, KC_COMM, KC_DOT, KC_SLSH, \
          KC_ESC, KC_TAB, KC_BSPC, KC_LGUI, KC_LSFT, KC_LCTL, KC_LALT,     \
          // KC_MINS and KC_LBRC are inverse-dvorakized
-         KC_SPC, KC_FN0, KC_QUOT, KC_LBRC, KC_ENT),                     \
+         KC_SPC, KC_FN0, KC_QUOT, KC_LBRC, KC_RBRC),                     \
 
   /* 1: fn with undvorak-ized punctuation */
   KEYMAP(SHIFT(KC_1), SHIFT(KC_2), SHIFT(KC_3), SHIFT(KC_MINS), SHIFT(KC_EQUAL), \
@@ -27,7 +27,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
          KC_MINS, KC_EQUAL, SHIFT(KC_9), SHIFT(KC_0), SHIFT(KC_7),      \
            KC_GRAVE, KC_1, KC_2, KC_3, KC_BSLS,                       \
          KC_FN1, KC_TAB, KC_BSPC, KC_LGUI, KC_LSFT, KC_LCTL, KC_LALT,   \
-           KC_SPC, KC_FN0, KC_E, KC_0, KC_RBRC), \
+           KC_SPC, KC_FN0, KC_E, KC_0, KC_ENT), \
 
   /* 2: arrows and function keys */
   KEYMAP(KC_INS, KC_HOME, KC_UP, KC_END, KC_PGUP, KC_UP, KC_F7, KC_F8, KC_F9, KC_F10, \
