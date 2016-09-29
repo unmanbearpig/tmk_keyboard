@@ -73,6 +73,7 @@ const uint16_t PROGMEM fn_actions[] = {
   [8] = ACTION_LAYER_OFF(5, 1),  // switch back to layer 0 hard
   [9] = ACTION_LAYER_MOMENTARY(4),  // to Fn overlay
   [10] = ACTION_LAYER_OFF(3, 1),
+  [11] = ACTION_MODS_TAP_KEY(MOD_RSFT, KC_SPC),
 };
 
 void action_function(keyrecord_t *record, uint8_t id, uint8_t opt)
